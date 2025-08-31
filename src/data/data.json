@@ -4,7 +4,7 @@
     "paragraph": "كل لحظة حلوة... بتستاهل لمسة خاصة  توزيعات وهدايا للمناسبات الخاصة "
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": " الهدية تُعتبر من أجمل وسائل التعبير عن المشاعر والعواطف، فهي ليست مجرد شيء مادي يُقدَّم، بل هي رمز للمحبة والتقدير والامتنان. يمكن للهدية أن تكون بسيطة أو فاخرة، إلا أن قيمتها الحقيقية تكمن في النية وراء تقديمها والرسالة التي تحملها. وهي تساهم في نشر السعادة والابتسامات بين الناس ولذلك فقط عند محلنا هدية ستجد ما يدخل السرور إلى قلب صاحبها.",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
@@ -20,27 +20,27 @@
   },
   "Gallery": [
     {
-      "title": "Project Title",
+      "title": "مباخر الحج",
       "largeImage": "img/portfolio/01-large.jpg",
       "smallImage": "img/portfolio/01-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "توزيعات المولودات",
       "largeImage": "img/portfolio/02-large.jpg",
       "smallImage": "img/portfolio/02-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "توزيعات المواليد",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/03-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "مطبقانيات تخرج",
       "largeImage": "img/portfolio/04-large.jpg",
       "smallImage": "img/portfolio/04-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "مباخر الخريجين",
       "largeImage": "img/portfolio/05-large.jpg",
       "smallImage": "img/portfolio/05-small.jpg"
     },
@@ -100,17 +100,17 @@
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "Ahmad Nour",
-      "job": "Director"
+      "name": "أحمد نور حمامي",
+      "job": "مدير واختصاصي التواصل"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mohammad Mo'men",
-      "job": "Designer and owner"
+      "name": "محمد مؤمن حمامي",
+      "job": "مدير ومصمم جرافيكي "
     }
   ],
   "Contact": {
-    "address": "Jordan, Amman, City Center, Bsman St. ",
+    "address": "عمان, الأردن, وسط البلد - شارع بسمان ",
     "phone": "+9627 9953 5422",
     "email": "mohammsd9hammami@gmail.com",
     "facebook": "https://www.facebook.com/profile.php?id=61574695725150",
