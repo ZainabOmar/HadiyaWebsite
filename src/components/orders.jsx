@@ -1,14 +1,13 @@
 import React from "react";
 
-export const Services = (props) => {
+export const Orders = (props) => {
   return (
-    <div id="services" className="text-center">
+    <div id="orders" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Our Services</h2>
+          <h2> اطلب الآن</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            قدّم طلبك بسهولة عبر موقعنا الإلكتروني وتمتع بتجربة شراء مريحة وسريعة
           </p>
         </div>
         <div className="row">
@@ -17,7 +16,7 @@ export const Services = (props) => {
                 <div key={`${d.name}-${i}`} className="col-md-4">
                   {" "}
                   <i className={d.icon}></i>
-                  <div className="service-desc">
+                  <div className="orders-desc">
                     <h3>{d.name}</h3>
                     <p>{d.text}</p>
                   </div>

@@ -148,7 +148,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2025 Zainab Hammami - Web Developer & Designer. Visit{" "}
+            &copy; 2025 Zainab Hammami - Full-Stack Software Engineer - Designer. Visit{" "}
             <a href="https://www.linkedin.com/in/zainab-hammami-18335013a/" rel="nofollow">
               LinkedIn Profile
             </a>

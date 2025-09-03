@@ -1,8 +1,7 @@
 {
   "Header": {
     "title": "أهلا بكم في موقع هدية",
-    "firstParagraph": "كل لحظة حلوة... بتستاهل لمسة خاصة ",
-    "secondParagraph": "توزيعات وهدايا للمناسبات الخاصة"
+    "firstParagraph": "كل لحظة حلوة... بتستاهل لمسة خاصة "
   },
   "About": {
     "paragraph": " الهدية تُعتبر من أجمل وسائل التعبير عن المشاعر والعواطف، فهي ليست مجرد شيء مادي يُقدَّم، بل هي رمز للمحبة والتقدير والامتنان. يمكن للهدية أن تكون بسيطة أو فاخرة، إلا أن قيمتها الحقيقية تكمن في النية وراء تقديمها والرسالة التي تحملها. وهي تساهم في نشر السعادة والابتسامات بين الناس ولذلك فقط عند محلنا هدية ستجد ما يدخل السرور إلى قلب صاحبها.",
@@ -66,7 +65,7 @@
       "smallImage": "img/portfolio/09-small.jpg"
     }
   ],
-  "Services": [
+  "makeOrder": [
     {
       "icon": "fa fa-wordpress",
       "name": "Lorem ipsum dolor",
@@ -119,24 +118,24 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-certificate",
+      "title": "جودة عالية",
+      "text": "نقدم لك منتجات ذات جودة استثنائية وبأسعار تتناسب مع ميزانيتك، لأننا نؤمن بأن كل هدية يجب أن تكون مميزة."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-lightbulb-o",
+      "title": "أفكار مبتكرة",
+      "text": "نحن دائمًا في بحث مستمر عن أفكار جديدة وحديثة للهدايا لتلبية رغباتك المتجددة والابتكار في اختياراتك"
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-star",
+      "title": "تجربة تسوق مريحة",
+      "text": "فريقنا مستعد دائمًا للإجابة على استفساراتك وتقديم أفضل النصائح لمساعدتك في اختيار الهدية المثالية."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-truck",
+      "title": "توصيل سريع وموثوق",
+      "text": "نحرص على تقديم خدمة توصيل سريعة وآمنة لضمان وصول هديتك في الوقت المناسب وفي حالة ممتازة"
     }
   ]
 }
