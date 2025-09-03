@@ -102,7 +102,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #b39800 0%, #ffec80 100%);
+  background: linear-gradient(to right, #A87932 0%, #EDE8D0 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -123,7 +123,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #b39800 0%, #ffec80 100%) !important;
+  background: linear-gradient(to right, #A87932 0%, #EDE8D0 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -150,7 +150,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #ffec80 0%, #b39800 100%);
+  background: linear-gradient(to right, #EDE8D0 0%, #A87932 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -164,8 +164,8 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #ffec80;
-  background-image: linear-gradient(to right, #ffec80 0%, #b39800 100%);
+  background-color: #EDE8D0;
+  background-image: linear-gradient(to right, #EDE8D0 0%, #A87932 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -182,7 +182,7 @@ hr {
 .btn-custom.active {
   color: #fff;
   background-image: none;
-  background-color: #b39800;
+  background-color: #A87932;
 }
 .btn:active,
 .btn.active {
@@ -227,7 +227,7 @@ a:focus,
 }
 .intro h1 span {
   font-weight: 800;
-  color: #ffec80;
+  color: #EDE8D0;
 }
 .intro p {
   color: #fff;
@@ -255,7 +255,7 @@ header .intro-text {
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #b39800 0%, #ffec80 100%);
+  background: linear-gradient(to right, #A87932 0%, #EDE8D0 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
@@ -272,9 +272,9 @@ header .intro-text {
   padding-bottom: 15px;
 }
 #about h2::after {
-  position: absolute;
+  /* position: absolute; */
   content: "";
-  background: linear-gradient(to right, #ffec80 0%, #b39800 100%);
+  background: linear-gradient(to right, #EDE8D0 0%, #A87932 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -289,7 +289,7 @@ header .intro-text {
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
-  color: #ffec80;
+  color: #EDE8D0;
   font-size: 11px;
   font-weight: 300;
   padding-right: 8px;
@@ -308,7 +308,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #b39800 0%, #ffec80 100%);
+  background: linear-gradient(to right, #A87932 0%, #EDE8D0 100%);
   color: #fff;
 }
 #services .service-desc {
@@ -332,7 +332,7 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #b39800 0%, #ffec80 100%);
+  background: linear-gradient(to right, #A87932 0%, #EDE8D0 100%);
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -458,7 +458,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #b39800 0%, #ffec80 100%);
+  background: linear-gradient(to right, #A87932 0%, #EDE8D0 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {

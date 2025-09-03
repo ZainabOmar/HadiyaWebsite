@@ -39,7 +39,6 @@ export const Contact = (props) => {
     <div>
       <div id="contact">
         <div className="container">
-          {/* here */}
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
               <h3>معلومات التواصل</h3>
@@ -149,9 +148,9 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
+            &copy; 2025 Zainab Hammami - Web Developer & Designer. Visit{" "}
+            <a href="https://www.linkedin.com/in/zainab-hammami-18335013a/" rel="nofollow">
+              LinkedIn Profile
             </a>
           </p>
         </div>
