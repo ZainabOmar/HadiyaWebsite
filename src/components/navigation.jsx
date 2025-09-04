@@ -2,63 +2,61 @@ import React from "react";
 
 export const Navigation = (props) => {
   return (
-    <nav id="menu" className="navbar navbar-default navbar-fixed-top">
+    <nav id="menu" className="navbar navbar-expand-md navbar-light bg-light fixed-top">
       <div className="container">
-        <div className="navbar-header">
-          <button
-            type="button"
-            className="navbar-toggle collapsed"
-            data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1"
-          >
-            {" "}
-            <span className="sr-only">Toggle navigation</span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-          </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            Hadiya <i className="fa fa-gift mx-1"></i> هدية
-          </a>{" "}
-        </div>
+    
+      {/* Toggler*/}
+        <button 
+          class="navbar-toggler" 
+          type="button" 
+          data-bs-toggle="collapse" 
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> 
 
-        <div
-          className="collapse navbar-collapse"
-          id="bs-example-navbar-collapse-1"
-        >
-          <ul className="nav navbar-nav navbar-right">
-            <li>
-              <a href="#features" className="page-scroll">
+    {/* Collapsible content */}
+      <div
+        className="collapse navbar-collapse" id="navbarNav">
+          <ul className="nav navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#features" className="nav-link page-scroll">
                 منتجاتنا
               </a>
             </li>
-            <li>
-              <a href="#about" className="page-scroll">
+            <li class="nav-item">
+              <a href="#about" className="nav-link page-scroll">
                 عن هدية
               </a>
             </li>
-            <li>
-              <a href="#services" className="page-scroll">
+            <li class="nav-item">
+              <a href="#services" className="nav-link page-scroll">
                 خدماتنا
               </a>
             </li>
-            <li>
-              <a href="#portfolio" className="page-scroll">
+            <li class="nav-item">
+              <a href="#portfolio" className="nav-link page-scroll">
                 معرض الصور
               </a>
             </li>
-            <li>
-              <a href="#team" className="page-scroll">
+            <li class="nav-item">
+              <a href="#team" className="nav-link page-scroll">
                 فريق العمل
               </a>
             </li>
-            <li>
-              <a href="#contact" className="page-scroll">
+            <li class="nav-item">
+              <a href="#contact" className="nav-link page-scroll">
                 تواصل معنا
               </a>
             </li>
           </ul>
         </div>
+        {/* brand */}
+        <a className="navbar-brand page-scroll" href="#page-top">
+            Hadiya <i className="fa fa-gift mx-1"></i> هدية
+          </a>{" "}
       </div>
     </nav>
   );
