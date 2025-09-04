@@ -2,7 +2,7 @@ body,
 html {
   font-family: "Open Sans", sans-serif;
   text-rendering: optimizeLegibility !important;
-  -webkit-font-smoothing: antialiased !important;
+  font-smoothing: antialiased !important;
   color: #777;
   font-weight: 400;
   width: 100% !important;
@@ -192,7 +192,7 @@ color:#c8981e;
 .btn.active {
   background-image: none;
   outline: 0;
-  -webkit-box-shadow: none;
+  box-shadow: none;
   box-shadow: none;
 }
 a:focus,
@@ -207,18 +207,18 @@ a:focus,
 }
 /* Header Section */
 .intro {
-  display: table;
-  width: 100%;
+  display: flex;
+  justify-content: center;     /* horizontal centering */
+  text-align: center; 
+  height: 100vh;
   padding: 0;
   background: url(../img/intro-bg.jpg) center center no-repeat;
-  background-color: #e5e5e5;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover;
+  background-color: #e5e5e5;     /* same here */
 }
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
+  width: 100%;
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
@@ -228,6 +228,9 @@ a:focus,
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
+  display: flex;               /* inherit flex for overlay content */
+  justify-content: center;
+  text-align: center;
 }
 .intro h1 span {
   font-weight: 800;
@@ -244,8 +247,8 @@ a:focus,
 header .intro-text {
   padding-top: 350px;
   padding-bottom: 200px;
-  text-align: center;
 }
+
 /* Features Section */
 #features {
   background: #f6f6f6;
@@ -264,6 +267,19 @@ header .intro-text {
 }
 #featuresHeader{
   margin-top: 5rem;
+}
+@media (max-width: 768px) {
+  .intro h1 {
+    font-size: 48px;
+  }
+  .intro p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  header .intro-text {
+    padding-top: 200px;
+    padding-bottom: 120px;
+  }
 }
 /* About Section */
 #about {
@@ -390,7 +406,7 @@ header .intro-text {
 .hover-bg .hover-text > h4 {
   opacity: 0;
   color: #fff;
-  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
   transform: translateY(100%);
   transition: all 0.3s;
   font-size: 18px;
@@ -400,8 +416,8 @@ header .intro-text {
 }
 .hover-bg:hover .hover-text > h4 {
   opacity: 1;
-  -webkit-backface-visibility: hidden;
-  -webkit-transform: translateY(0);
+  backface-visibility: hidden;
+  transform: translateY(0);
   transform: translateY(0);
 }
 .hover-bg:hover .hover-text {
@@ -498,28 +514,28 @@ label {
   background-image: none;
   border: 1px solid #ddd;
   border-radius: 0;
-  -webkit-box-shadow: none;
   box-shadow: none;
-  -webkit-transition: none;
-  -o-transition: none;
+  box-shadow: none;
+  transition: none;
+  transition: none;
   transition: none;
 }
 #contact .form-control:focus {
   border-color: #999;
   outline: 0;
-  -webkit-box-shadow: transparent;
+  box-shadow: transparent;
   box-shadow: transparent;
 }
-.form-control::-webkit-input-placeholder {
+.form-control::input-placeholder {
   color: #777;
 }
-.form-control:-moz-placeholder {
+.form-control:placeholder {
   color: #777;
 }
-.form-control::-moz-placeholder {
+.form-control::placeholder {
   color: #777;
 }
-.form-control:-ms-input-placeholder {
+.form-control:input-placeholder {
   color: #777;
 }
 #contact .contact-item {
