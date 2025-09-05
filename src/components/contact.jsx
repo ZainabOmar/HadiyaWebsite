@@ -39,7 +39,7 @@ export const Contact = (props) => {
     <div>
       <div id="contact">
         <div className="container">
-          <div className="col-md-3 col-md-offset-1 contact-info">
+          <div className="col-md-3 offset-md-1 contact-info">
             <div className="contact-item">
               <h3>معلومات التواصل</h3>
               <p>

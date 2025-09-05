@@ -6,12 +6,12 @@ export const Header = (props) => {
         <div className="overlay">
           <div className="container">
             <div className="row">
-              <div className="col-md-8 offset-md-2 intro-text">
+              <div className="intro-text">
                 <h1>
                   {props.data ? props.data.title : "Loading"}
                   <span></span>
                 </h1>
-                <p>{props.data ? props.data.firstParagraph : "Loading"}</p>
+                <p id="para">{props.data ? props.data.firstParagraph : "Loading"}</p>
                 <a
                   href="#features"
                   className="btn btn-custom btn-lg page-scroll"
