@@ -4,7 +4,7 @@ export const Features = (props) => {
   return (
     <div id="features" className="text-center">
       <div className="container" id="features-header">
-        <div className="col-md-10 offset-md-1x">
+        <div>
           <h2 id = "featuresHeader" >مزايا</h2>
         </div>
         <div className="row">
