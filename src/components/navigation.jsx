@@ -32,13 +32,8 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li className="nav-item">
-              <a href="#services" className="nav-link page-scroll">
-                خدماتنا
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="#portfolio" className="nav-link page-scroll">
-                معرض الصور
+              <a href="#orders" className="nav-link page-scroll">
+                اطلب الأن
               </a>
             </li>
             <li className="nav-item">
