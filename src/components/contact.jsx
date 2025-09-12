@@ -31,7 +31,7 @@ export const Contact = (props) => {
           clearState();
         },
         (error) => {
-          console.log(error.text);
+          console.log("this is the error here: " + error.text);
         }
       );
   };
@@ -74,7 +74,7 @@ export const Contact = (props) => {
                  يرجى تعبئة النموذج التالي لارسال بريد الكتروني للصفحة وسيتم التواصل معكم والرد بأسرع ما يمكن
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              <form name="sentMessage" noValidate onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">

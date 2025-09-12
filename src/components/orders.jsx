@@ -5,23 +5,10 @@ export const Orders = (props) => {
   const [loading, setLoading] = useState(true);
 
  useEffect(() => {
-    fetch("http://127.0.0.1:8888/jsonapi/node/orders", 
-      { method: "GET",
-      credentials: "include", // only if supportsCredentials: true
-      })
-      .then((res) => res.json())
-      .then((data) => {
-        console.log("Drupal response:", data); // 👈 check structure
-        setOrders(data.data || data); // adapt depending on structure
-        setLoading(false);
-      })
-      .catch((err) => {
-        console.error("Error fetching Drupal data:", err);
-        setLoading(false);
-      });
-  }, []);
-
-    if (loading) return <p>Loading orders...</p>;
+    fetch("http://localhost:8888/jsonapi/node/giftbox", { credentials: "include" })
+  .then(res => res.json())
+  .then(console.log)
+  .catch(console.error);})
 
   return (
     <div id="orders" className="text-center">
