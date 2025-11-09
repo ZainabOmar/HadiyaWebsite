@@ -52,12 +52,12 @@
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
+      "img": "img/team/02.jpeg",
       "name": "أحمد نور حمامي",
       "job": "مدير واختصاصي التواصل"
     },
     {
-      "img": "img/team/02.jpg",
+      "img": "img/team/01.jpeg",
       "name": "محمد مؤمن حمامي",
       "job": "مدير ومصمم جرافيكي "
     }

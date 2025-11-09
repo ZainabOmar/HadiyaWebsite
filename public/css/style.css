@@ -287,28 +287,30 @@ header .intro-text {
   padding: 2rem;
 }
 /* this one should be edited when needed */
-/* #features-header h2::after {
+#about h2 {
+  position: relative;
+  text-align: center;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  display: inline-block; /* optional, keeps underline centered under text */
+}
+#features-header h2::after {
   position: absolute;
   content: "";
   background: linear-gradient(to right, #EDE8D0 0%, #c8981e 100%);
   height: 4px;
   width: 60px;
-  bottom: 0;
   left: 50%;
+  bottom: -90px;
   transform: translateX(-50%);
-} */
+} 
 /* About Section */
 
 #about h3 {
   font-size: 22px;
   margin: 0 0 20px;
 }
-#about h2 {
-  position: relative;
-  text-align: center;
-  margin-bottom: 15px;
-  padding-bottom: 15px;
-}
+
 #about h2::after {
   position: absolute;
   content: "";
