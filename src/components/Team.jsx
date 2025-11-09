@@ -4,8 +4,8 @@ export const Team = (props) => {
   return (
     <div id="team" className="text-center py-5">
       <div className="row justify-content-center">
-        <div className="col-md-8 offset-md-2 section-title mb-5">
-          <h2>فريق العمل</h2>
+        <div className="col-md-8 section-title mb-5">
+          <h2 id="team-header">فريق العمل</h2>
           <p>
             يتمتّع فريقنا بخبرة واسعة في مجال التصميم الجرافيكي، ويعتمد أحدث تقنيات وأدوات الليزر لإنجاز أعماله بكفاءة وجودة عالية
           </p>
